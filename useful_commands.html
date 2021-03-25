@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Useful commands...</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<h1 id="this-page-contains-info-about-some-linux-utilities">This page contains info about some linux utilities</h1>
+<h2 id="topics">Topics</h2>
+<ul>
+<li><a href="#tar">Managing archives</a></li>
+<li><a href="#zip">Compressing files</a></li>
+<li><a href="#find">Locating files</a></li>
+</ul>
+<h3 id="tar">tar</h3>
+<ul>
+<li>Extract the contents of a .tar.gz package:</li>
+</ul>
+<pre class="[bash]"><code>   tar xvfz file.tar.gz</code></pre>
+<ul>
+<li>Create a .tar.gz package with the content of a given directory:</li>
+</ul>
+<pre class="[bash]"><code>   tar cvfz outfile.tar.gz dirname</code></pre>
+<h3 id="zip">zip</h3>
+<ul>
+<li>Example: To compress files using gzip use</li>
+</ul>
+<pre class="[bash]"><code>gzip filename    </code></pre>
+<ul>
+<li>Example: To uncompress .gz files use</li>
+</ul>
+<pre class="[bash]"><code>gunzip filename.gz</code></pre>
+<ul>
+<li>Example: To compress files using zip use</li>
+</ul>
+<pre class="[bash]"><code>zip out.zip file1.dat file2.dat file3.dat</code></pre>
+<ul>
+<li>Example: To uncompress .zip files use</li>
+</ul>
+<pre class="[bash]"><code>unzip file.zip</code></pre>
+<ul>
+<li>Example: To uncompress .7z files use</li>
+</ul>
+<pre class="[bash]"><code>p7zip -d file.7z</code></pre>
+<h3 id="find">find</h3>
+<ul>
+<li>Example: To find ‘filename’ in all order-1 subdirectories of /pathdirectory/, use</li>
+</ul>
+<pre class="[bash]"><code>find /pathdirectory/ -maxdepth 1 -name filename</code></pre>
+<ul>
+<li>Example: To find all C headers (.h) in all order-3 subdirectories of currect directory, use</li>
+</ul>
+<pre class="[bash]"><code>find ./ -maxdepth 3 -name &#39;*.h&#39;</code></pre>
+</body>
+</html>
