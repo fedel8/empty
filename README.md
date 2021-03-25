@@ -22,7 +22,7 @@ Incluir imágenes:
 Ecuaciones
 ==========
 
-Ecuaciones en una línea $I = \int \rho R^{2} dV$. 
+Ecuaciones en una línea <img src="https://render.githubusercontent.com/render/math?math=I = \int \rho R^{2} dV">
 
 ***
 
