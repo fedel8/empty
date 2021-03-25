@@ -26,8 +26,7 @@ Inline equations <img src="https://render.githubusercontent.com/render/math?math
 
 ***
 
-Example:
-<img src="https://render.githubusercontent.com/render/math?math= E = m c^2">
+Example: <img src="https://render.githubusercontent.com/render/math?math=E = m c^2">
 
 ***
 
