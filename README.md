@@ -27,7 +27,7 @@ Ecuaciones en una línea <img src="https://render.githubusercontent.com/render/m
 ***
 
 Ecuaciones multilínea:
-$$E = m c^2$$
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math= E = m c^2">
 
 ***
 
