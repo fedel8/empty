@@ -13,21 +13,21 @@ Links:
 
 [Examples](./useful_commands.html "useful commands examples")
 
-Incluir imágenes:
+Include images:
 
 ![render from pov (caption).](./car.png "car")
 
 ***
 
-Ecuaciones
-==========
+Equations
+=========
 
-Ecuaciones en una línea <img src="https://render.githubusercontent.com/render/math?math=I = \int \rho R^{2} dV">
+Inline equations <img src="https://render.githubusercontent.com/render/math?math=I = \int \rho R^{2} dV">
 
 ***
 
-Ecuaciones multilínea:
-<div align="center"><img src="https://render.githubusercontent.com/render/math?math= E = m c^2">
+Example:
+<img src="https://render.githubusercontent.com/render/math?math= E = m c^2">
 
 ***
 
