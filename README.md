@@ -45,5 +45,5 @@ Table: Shoes sizes, materials, and colors.
 
 ***
 
-Estas líneas solo están en la rama_1!
+Estas líneas se agragaron en en la rama_1, antes del merge!
 ***
