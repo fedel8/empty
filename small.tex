@@ -1,0 +1,31 @@
+%compilar con 
+%pdflatex small.tex
+%
+\documentclass{article}
+\usepackage{../mfc_latex}
+\begin{document}
+Small is beautiful.\newline
+\SWNT\newline
+\negrita{Hola} enfatizada.
+
+Este es un texto para poner la atención en los caracteres españoles!
+
+\begin{lstlisting}[backgroundcolor = \color{mfc_gray1},
+                   language = bash]
+ ./configure
+ make 
+ #bash comment
+ make install
+\end{lstlisting}
+
+\begin{comment} 
+Este es un comentario
+multiline
+gracias al verbatim package
+\end{comment}
+
+%Ejemplos de texto en colores personalizados
+\mfcred{El rojo es un lindo color}, \mfcblue{pero este también!}
+\end{document}
+
+
