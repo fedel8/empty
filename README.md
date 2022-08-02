@@ -13,6 +13,8 @@ Links:
 
 [Examples](./useful_commands.html "useful commands examples")
 
+[IMC calculator](./IMC.html "compute your IMC")
+
 Include images:
 
 ![render from pov (caption).](./car.png "car")

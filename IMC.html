@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Obtiene tu índice de masa corporal</h1>
+<br> 
+<input id="entry_peso">
+<label for="entry_peso">Introduce tu peso (en kg)</label><br>
+<br> 
+<input id="entry_altura">
+<label for="entry_altura">Introduce tu altura (en m)</label><br>
+<br> <br> 
+<button type="button" onclick="CalcularIMC()">Calcular IMC</button>
+<hr/>
+<h3 id="IMC_value"></h3>   
+
+<h3 style="color:red" id="recom"></h3> 
+
+<script>
+function CalcularIMC() {
+  var text;
+  var text1;
+  var peso, altura;
+  var imc;
+  
+  peso = document.getElementById("entry_peso").value;
+  altura = document.getElementById("entry_altura").value;
+  
+  imc = peso/Math.pow(altura,2);
+  
+  text1 = "<span class='bolded'>Índice de masa corporal: </span>" + imc.toFixed(2)
+  
+  //document.getElementById("IMC_value").innerHTML = imc.toFixed(2);
+  document.getElementById("IMC_value").innerHTML = text1;
+  if(imc > 25){
+     text = "<span style='color: red;'>Recomendación: cuidarse con las calorías</span>";
+              }
+  else if(imc <= 25 && imc > 18){
+     text = "<span style='color: green;'>Recomendación: seguí así, estás OK!</span>";
+                                }
+  else if(imc <= 18){
+     text = "<span style='color: red;'>Recomendación: aumentar la ingesta</span>";
+                    }          
+  else{
+     text = "ERROR en CalcularIMC";
+      }            
+                                
+  document.getElementById("recom").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+
